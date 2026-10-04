@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import type { Card as CardType, WordType } from "@/lib/types";
 
 const TYPE_LABELS: Record<WordType, string> = {
@@ -138,6 +139,14 @@ export default function Card({
   flipped: boolean;
   onFlip: () => void;
 }) {
+  const backRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (backRef.current) {
+      backRef.current.scrollTop = 0;
+    }
+  }, [card, flipped]);
+
   return (
     <div className="flip-card w-full max-w-md">
       <div
@@ -166,7 +175,10 @@ export default function Card({
           </div>
         </div>
 
-        <div className="flip-card-face flip-card-back rounded-xl border border-accent bg-white p-6 shadow-sm">
+        <div
+          ref={backRef}
+          className="flip-card-face flip-card-back rounded-xl border border-accent bg-white p-6 shadow-sm"
+        >
           <div className="mb-3">
             <TypeBadge wordType={card.wordType} />
           </div>
