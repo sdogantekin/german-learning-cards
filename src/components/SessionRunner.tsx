@@ -102,15 +102,13 @@ export default function SessionRunner({
       <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
         <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full border-4 border-accent">
           <span className="text-3xl font-bold text-accent">{accuracy}%</span>
-          <span className="text-xs text-neutral-500 dark:text-neutral-400">
-            accuracy
-          </span>
+          <span className="text-xs text-stone-500">accuracy</span>
         </div>
         <div>
-          <h2 className="mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
+          <h2 className="mb-1 text-2xl font-semibold text-stone-900">
             Session complete!
           </h2>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <p className="text-stone-600">
             {totalWords} words · {tally.correct} correct · {tally.wrong} wrong
             attempts · {formatElapsed(elapsedMs)}
           </p>
@@ -137,7 +135,7 @@ export default function SessionRunner({
   return (
     <div className="flex w-full flex-1 flex-col items-center gap-6">
       <div className="w-full max-w-md">
-        <div className="mb-2 flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
+        <div className="mb-2 flex items-center justify-between text-sm text-stone-500">
           <span>
             {doneCount} / {totalWords} done
           </span>
@@ -145,7 +143,7 @@ export default function SessionRunner({
             End session
           </button>
         </div>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-200 dark:bg-neutral-800">
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-stone-200">
           <div
             className="h-full rounded-full bg-accent transition-all duration-300"
             style={{ width: `${progressPct}%` }}
@@ -163,13 +161,13 @@ export default function SessionRunner({
         <div className="flex w-full max-w-md gap-4">
           <button
             onClick={() => handleAnswer(false)}
-            className="flex-1 rounded-md border border-red-500 px-4 py-3 font-medium text-red-600 transition-transform active:scale-95 dark:text-red-400"
+            className="flex-1 rounded-md border border-rose-400 px-4 py-3 font-medium text-rose-600 transition-transform active:scale-95"
           >
             Wrong
           </button>
           <button
             onClick={() => handleAnswer(true)}
-            className="flex-1 rounded-md bg-green-600 px-4 py-3 font-medium text-white transition-transform active:scale-95"
+            className="flex-1 rounded-md bg-emerald-600 px-4 py-3 font-medium text-white transition-transform active:scale-95"
           >
             Correct
           </button>

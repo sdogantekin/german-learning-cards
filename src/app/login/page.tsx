@@ -7,19 +7,19 @@ export default function LoginPage() {
   const [state, formAction, pending] = useActionState(login, {});
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-neutral-50 p-4 dark:bg-neutral-950">
+    <main className="flex min-h-screen items-center justify-center bg-background p-4">
       <form
         action={formAction}
-        className="w-full max-w-sm rounded-xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+        className="w-full max-w-sm rounded-xl border border-stone-200 bg-white p-6 shadow-sm"
       >
-        <h1 className="mb-1 text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+        <h1 className="mb-1 text-xl font-semibold text-stone-900">
           German Learning Cards
         </h1>
-        <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+        <p className="mb-6 text-sm text-stone-500">
           Enter the password to continue.
         </p>
 
-        <label className="mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+        <label className="mb-1 block text-sm font-medium text-stone-700">
           Password
         </label>
         <input
@@ -27,13 +27,11 @@ export default function LoginPage() {
           name="password"
           autoFocus
           required
-          className="mb-3 w-full rounded-md border border-neutral-300 px-3 py-2 text-base outline-none focus:border-accent dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
+          className="mb-3 w-full rounded-md border border-stone-300 px-3 py-2 text-base outline-none focus:border-accent"
         />
 
         {state.error && (
-          <p className="mb-3 text-sm text-red-600 dark:text-red-400">
-            {state.error}
-          </p>
+          <p className="mb-3 text-sm text-rose-600">{state.error}</p>
         )}
 
         <button

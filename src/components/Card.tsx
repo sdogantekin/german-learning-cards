@@ -22,7 +22,7 @@ function DetailRow({ label, value }: { label: string; value: string }) {
       <span className="text-xs font-medium uppercase tracking-wide text-accent">
         {label}
       </span>
-      <p className="text-base text-neutral-900 dark:text-neutral-100">{value}</p>
+      <p className="text-base text-stone-900">{value}</p>
     </div>
   );
 }
@@ -37,12 +37,12 @@ function SentencePair({
   en: string;
 }) {
   return (
-    <div className="mb-3 rounded-md bg-neutral-50 p-3 dark:bg-neutral-800">
-      <p className="mb-1 text-xs font-medium uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
+    <div className="mb-3 rounded-md bg-stone-50 p-3">
+      <p className="mb-1 text-xs font-medium uppercase tracking-wide text-stone-500">
         {label}
       </p>
-      <p className="text-base text-neutral-900 dark:text-neutral-100">{de}</p>
-      <p className="text-sm text-neutral-500 dark:text-neutral-400">{en}</p>
+      <p className="text-base text-stone-900">{de}</p>
+      <p className="text-sm text-stone-500">{en}</p>
     </div>
   );
 }
@@ -153,20 +153,20 @@ export default function Card({
         }}
         className={`flip-card-inner h-[26rem] cursor-pointer outline-none ${flipped ? "is-flipped" : ""}`}
       >
-        <div className="flip-card-face flex flex-col rounded-xl border border-neutral-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900">
+        <div className="flip-card-face flex flex-col rounded-xl border border-stone-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
           <TypeBadge wordType={card.wordType} />
           <div className="flex flex-1 flex-col items-center justify-center gap-4 text-center">
-            <p className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100">
+            <p className="text-3xl font-semibold text-stone-900">
               {card.front}
             </p>
-            <span className="flex items-center gap-1.5 text-sm text-neutral-400 dark:text-neutral-500">
+            <span className="flex items-center gap-1.5 text-sm text-stone-400">
               <FlipIcon />
               Tap to reveal
             </span>
           </div>
         </div>
 
-        <div className="flip-card-face flip-card-back rounded-xl border border-accent bg-white p-6 shadow-sm dark:bg-neutral-900">
+        <div className="flip-card-face flip-card-back rounded-xl border border-accent bg-white p-6 shadow-sm">
           <div className="mb-3">
             <TypeBadge wordType={card.wordType} />
           </div>

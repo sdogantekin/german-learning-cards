@@ -66,18 +66,18 @@ export default async function StatsPage() {
   return (
     <div className="flex w-full max-w-3xl flex-col gap-10">
       <section>
-        <h1 className="mb-4 text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+        <h1 className="mb-4 text-xl font-semibold text-stone-900">
           Session history
         </h1>
         {sessionRows.length === 0 ? (
-          <p className="text-sm text-neutral-500 dark:text-neutral-400">
+          <p className="text-sm text-stone-500">
             No sessions yet.
           </p>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead>
-                <tr className="border-b border-neutral-200 text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">
+                <tr className="border-b border-stone-200 text-stone-500">
                   <th className="py-2 pr-4">Date</th>
                   <th className="py-2 pr-4">Types</th>
                   <th className="py-2 pr-4">Words</th>
@@ -91,7 +91,7 @@ export default async function StatsPage() {
                 {sessionRows.map((s) => (
                   <tr
                     key={s.id}
-                    className="border-b border-neutral-100 dark:border-neutral-900"
+                    className="border-b border-stone-100"
                   >
                     <td className="py-2 pr-4">
                       {new Date(s.started_at).toLocaleString()}
@@ -113,18 +113,18 @@ export default async function StatsPage() {
       </section>
 
       <section>
-        <h2 className="mb-4 text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+        <h2 className="mb-4 text-xl font-semibold text-stone-900">
           Most problematic words
         </h2>
         {problematicRows.length === 0 ? (
-          <p className="text-sm text-neutral-500 dark:text-neutral-400">
+          <p className="text-sm text-stone-500">
             No wrong answers recorded yet.
           </p>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">
               <thead>
-                <tr className="border-b border-neutral-200 text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">
+                <tr className="border-b border-stone-200 text-stone-500">
                   <th className="py-2 pr-4">Word</th>
                   <th className="py-2 pr-4">Type</th>
                   <th className="py-2 pr-4">Wrong attempts</th>
@@ -134,7 +134,7 @@ export default async function StatsPage() {
                 {problematicRows.map((w) => (
                   <tr
                     key={`${w.word_type}-${w.word_id}`}
-                    className="border-b border-neutral-100 dark:border-neutral-900"
+                    className="border-b border-stone-100"
                   >
                     <td className="py-2 pr-4">{w.word_label}</td>
                     <td className="py-2 pr-4">{w.word_type}</td>

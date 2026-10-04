@@ -75,7 +75,7 @@ export default function TypeSelector() {
               className={`flex cursor-pointer items-center gap-3 rounded-lg border px-4 py-3 text-base transition-colors ${
                 isSelected
                   ? "border-accent bg-accent-soft"
-                  : "border-neutral-200 dark:border-neutral-800"
+                  : "border-stone-200 bg-white"
               }`}
             >
               <input
@@ -88,16 +88,16 @@ export default function TypeSelector() {
                 className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
                   isSelected
                     ? "bg-accent text-accent-foreground"
-                    : "bg-neutral-100 text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400"
+                    : "bg-stone-100 text-stone-500"
                 }`}
               >
                 {info.badge}
               </span>
               <span className="flex-1">
-                <span className="block font-medium text-neutral-900 dark:text-neutral-100">
+                <span className="block font-medium text-stone-900">
                   {info.label}
                 </span>
-                <span className="block text-xs text-neutral-500 dark:text-neutral-400">
+                <span className="block text-xs text-stone-500">
                   {info.hint}
                 </span>
               </span>
@@ -105,7 +105,7 @@ export default function TypeSelector() {
                 className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 ${
                   isSelected
                     ? "border-accent bg-accent text-accent-foreground"
-                    : "border-neutral-300 text-transparent dark:border-neutral-700"
+                    : "border-stone-300 text-transparent"
                 }`}
               >
                 <CheckIcon />
