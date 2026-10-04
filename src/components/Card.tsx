@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Card as CardType, WordType } from "@/lib/types";
 
 const TYPE_LABELS: Record<WordType, string> = {
@@ -28,6 +28,41 @@ function DetailRow({ label, value }: { label: string; value: string }) {
   );
 }
 
+function EyeIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-4 w-4"
+    >
+      <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7Z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
+
+function EyeOffIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-4 w-4"
+    >
+      <path d="M9.9 4.24A10.9 10.9 0 0 1 12 4c7 0 11 7 11 7a13.2 13.2 0 0 1-3.17 3.88M6.6 6.6C3.42 8.5 1 12 1 12s4 7 11 7a10.9 10.9 0 0 0 5.4-1.4" />
+      <path d="M9.5 9.5a3 3 0 0 0 4.24 4.24" />
+      <path d="M2 2l20 20" />
+    </svg>
+  );
+}
+
 function SentencePair({
   label,
   de,
@@ -37,13 +72,22 @@ function SentencePair({
   de: string;
   en: string;
 }) {
+  const [revealed, setRevealed] = useState(false);
+
   return (
     <div className="mb-3 rounded-md bg-stone-50 p-3">
       <p className="mb-1 text-xs font-medium uppercase tracking-wide text-stone-500">
         {label}
       </p>
-      <p className="text-base text-stone-900">{de}</p>
-      <p className="text-sm text-stone-500">{en}</p>
+      <p className="mb-1.5 text-base text-stone-900">{de}</p>
+      <button
+        type="button"
+        onClick={() => setRevealed((r) => !r)}
+        className="flex items-center gap-1.5 text-sm text-accent"
+      >
+        {revealed ? <EyeOffIcon /> : <EyeIcon />}
+        {revealed ? en : "Show translation"}
+      </button>
     </div>
   );
 }
@@ -182,7 +226,7 @@ export default function Card({
           <div className="mb-3">
             <TypeBadge wordType={card.wordType} />
           </div>
-          <CardBack card={card} />
+          <CardBack card={card} key={`${card.wordType}-${card.wordId}`} />
         </div>
       </div>
     </div>
