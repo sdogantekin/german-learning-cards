@@ -1,0 +1,201 @@
+﻿No,Noun,Artikel,Plural,English Meaning,Turkish Meaning,Sentence 1 (German),Sentence 1 (Translation),Case 1,Sentence 2 (German),Sentence 2 (Translation),Case 2
+1,Familie,die,die Familien,family,aile,Meine Familie wohnt in Berlin.,My family lives in Berlin.,Nominativ,Ich verbringe die Ferien mit meiner Familie.,I spend the holidays with my family.,Dativ
+2,Vater,der,die Väter,father,baba,Mein Vater arbeitet als Busfahrer.,My father works as a bus driver.,Nominativ,Ich rufe meinen Vater jeden Sonntag an.,I call my father every Sunday.,Akkusativ
+3,Mutter,die,die Mütter,mother,anne,Meine Mutter kocht sehr gut.,My mother cooks very well.,Nominativ,Ich helfe meiner Mutter im Garten.,I help my mother in the garden.,Dativ
+4,Bruder,der,die Brüder,brother,"erkek kardeş, abi",Mein Bruder studiert in München.,My brother studies in Munich.,Nominativ,Ich besuche meinen Bruder am Wochenende.,I visit my brother on the weekend.,Akkusativ
+5,Schwester,die,die Schwestern,sister,"kız kardeş, abla",Meine Schwester ist Krankenschwester.,My sister is a nurse.,Nominativ,Ich schenke meiner Schwester ein Buch.,I give my sister a book.,Dativ
+6,Kind,das,die Kinder,child,çocuk,Das Kind spielt im Garten.,The child plays in the garden.,Nominativ,Die Mutter liest dem Kind eine Geschichte vor.,The mother reads a story to the child.,Dativ
+7,Freund,der,die Freunde,"friend, boyfriend","arkadaş, erkek arkadaş",Mein Freund kommt heute Abend zu Besuch.,My friend is coming to visit this evening.,Nominativ,Ich treffe meinen Freund vor dem Kino.,I meet my friend in front of the cinema.,Akkusativ
+8,Freundin,die,die Freundinnen,"friend (female), girlfriend","kız arkadaş, kadın arkadaş",Meine Freundin lernt Deutsch.,My friend is learning German.,Nominativ,Ich schreibe meiner Freundin eine Nachricht.,I write my friend a message.,Dativ
+9,Nachbar,der,die Nachbarn,neighbor,komşu,Der Nachbar grüßt immer freundlich.,The neighbor always greets us in a friendly way.,Nominativ,Wir haben den Nachbarn zum Kaffee eingeladen.,We invited the neighbor for coffee.,Akkusativ
+10,Kollege,der,die Kollegen,colleague (male),iş arkadaşı,Mein Kollege hat heute Geburtstag.,My colleague has a birthday today.,Nominativ,Ich bringe meinem Kollegen einen Kuchen mit.,I bring my colleague a cake.,Dativ
+11,Kollegin,die,die Kolleginnen,colleague (female),kadın iş arkadaşı,Die Kollegin arbeitet im Büro nebenan.,The colleague works in the office next door.,Nominativ,Wir danken der Kollegin für die Hilfe.,We thank the colleague for the help.,Dativ
+12,Chef,der,die Chefs,boss,"patron, şef",Der Chef ist heute nicht im Büro.,The boss is not in the office today.,Nominativ,Ich frage den Chef nach dem Urlaub.,I ask the boss about the vacation.,Akkusativ
+13,Mann,der,die Männer,"man, husband","adam, koca",Der Mann wartet an der Haltestelle.,The man is waiting at the bus stop.,Nominativ,Ich kenne den Mann von der Arbeit.,I know the man from work.,Akkusativ
+14,Frau,die,die Frauen,"woman, wife","kadın, eş",Die Frau kauft Brot und Milch.,The woman buys bread and milk.,Nominativ,Ich spreche mit der Frau am Schalter.,I speak with the woman at the counter.,Dativ
+15,Junge,der,die Jungen,boy,erkek çocuk,Der Junge spielt mit dem Ball.,The boy plays with the ball.,Nominativ,Wir helfen dem Jungen bei den Hausaufgaben.,We help the boy with his homework.,Dativ
+16,Mädchen,das,die Mädchen,girl,kız çocuğu,Das Mädchen geht zur Schule.,The girl goes to school.,Nominativ,Ich schenke dem Mädchen eine Puppe.,I give the girl a doll.,Dativ
+17,Eltern,die,die Eltern (nur Plural),parents,"ebeveynler, anne baba",Meine Eltern wohnen auf dem Land.,My parents live in the countryside.,Nominativ,Ich besuche meine Eltern jeden Monat.,I visit my parents every month.,Akkusativ
+18,Hilfe,die,die Hilfen (selten),help,yardım,Die Hilfe kommt schnell.,The help arrives quickly.,Nominativ,Ich brauche Ihre Hilfe.,I need your help.,Akkusativ
+19,Idee,die,die Ideen,idea,fikir,Das ist eine gute Idee.,That is a good idea.,Nominativ,Ich habe eine Idee für das Wochenende.,I have an idea for the weekend.,Akkusativ
+20,Sohn,der,die Söhne,son,"oğul, erkek evlat",Mein Sohn geht in die dritte Klasse.,My son is in third grade.,Nominativ,Ich kaufe meinem Sohn neue Schuhe.,I buy my son new shoes.,Dativ
+21,Tochter,die,die Töchter,daughter,kız evlat,Meine Tochter spielt Gitarre.,My daughter plays the guitar.,Nominativ,Ich hole meine Tochter von der Schule ab.,I pick up my daughter from school.,Akkusativ
+22,Gast,der,die Gäste,guest,misafir,Der Gast sitzt am Fenster.,The guest is sitting at the window.,Nominativ,Wir begrüßen jeden Gast herzlich.,We warmly welcome every guest.,Akkusativ
+23,Mensch,der,die Menschen,"person, human being",insan,Jeder Mensch braucht Freunde.,Every person needs friends.,Nominativ,Ich gebe dem Menschen am Eingang meine Karte.,I give my ticket to the person at the entrance.,Dativ
+24,Leute,die,die Leute (nur Plural),people,"insanlar, kişiler",Die Leute warten vor dem Laden.,The people are waiting in front of the shop.,Nominativ,Ich habe viele nette Leute kennengelernt.,I have met many nice people.,Akkusativ
+25,Geschwister,die,die Geschwister (nur Plural),siblings,kardeşler,Meine Geschwister wohnen weit weg.,My siblings live far away.,Nominativ,Ich telefoniere oft mit meinen Geschwistern.,I often talk on the phone with my siblings.,Dativ
+26,Wohnung,die,die Wohnungen,"apartment, flat",daire,Die Wohnung hat drei Zimmer.,The apartment has three rooms.,Nominativ,Wir suchen eine Wohnung in der Nähe vom Park.,We are looking for an apartment near the park.,Akkusativ
+27,Haus,das,die Häuser,house,ev,Das Haus liegt direkt am Fluss.,The house is located right on the river.,Nominativ,Wir wohnen in einem kleinen Haus.,We live in a small house.,Dativ
+28,Zimmer,das,die Zimmer,room,oda,Das Zimmer ist hell und ruhig.,The room is bright and quiet.,Nominativ,Ich putze mein Zimmer jeden Samstag.,I clean my room every Saturday.,Akkusativ
+29,Küche,die,die Küchen,kitchen,mutfak,Die Küche ist ziemlich klein.,The kitchen is quite small.,Nominativ,Ich koche gern in der Küche.,I like cooking in the kitchen.,Dativ
+30,Bad,das,die Bäder,bathroom,banyo,Das Bad hat kein Fenster.,The bathroom has no window.,Nominativ,Ich putze heute das Bad.,I am cleaning the bathroom today.,Akkusativ
+31,Schlafzimmer,das,die Schlafzimmer,bedroom,yatak odası,Das Schlafzimmer liegt im ersten Stock.,The bedroom is on the first floor.,Nominativ,Ich möchte das Schlafzimmer neu streichen.,I would like to repaint the bedroom.,Akkusativ
+32,Wohnzimmer,das,die Wohnzimmer,living room,oturma odası,Das Wohnzimmer ist sehr gemütlich.,The living room is very cozy.,Nominativ,Wir malen das Wohnzimmer gelb.,We are painting the living room yellow.,Akkusativ
+33,Balkon,der,die Balkone,balcony,balkon,Der Balkon geht nach Süden.,The balcony faces south.,Nominativ,Wir frühstücken auf dem Balkon.,We have breakfast on the balcony.,Dativ
+34,Garten,der,die Gärten,garden,bahçe,Der Garten ist groß und grün.,The garden is big and green.,Nominativ,Wir gehen in den Garten.,We are going into the garden.,Akkusativ
+35,Tür,die,die Türen,door,kapı,Die Tür ist leider kaputt.,The door is unfortunately broken.,Nominativ,Bitte schließen Sie die Tür.,Please close the door.,Akkusativ
+36,Fenster,das,die Fenster,window,pencere,Das Fenster ist offen.,The window is open.,Nominativ,Ich sitze gern am Fenster.,I like sitting at the window.,Dativ
+37,Schlüssel,der,die Schlüssel,key,anahtar,Der Schlüssel liegt auf dem Tisch.,The key is lying on the table.,Nominativ,Ich suche den Schlüssel für die Haustür.,I am looking for the key to the front door.,Akkusativ
+38,Treppe,die,die Treppen,"stairs, staircase",merdiven,Die Treppe ist sehr steil.,The stairs are very steep.,Nominativ,Wir stehen am Ende der Treppe.,We are standing at the end of the stairs.,Genitiv
+39,Aufzug,der,die Aufzüge,"elevator, lift",asansör,Der Aufzug ist leider kaputt.,The elevator is unfortunately broken.,Nominativ,Nehmen Sie bitte den Aufzug in den dritten Stock.,Please take the elevator to the third floor.,Akkusativ
+40,Keller,der,die Keller,"basement, cellar",bodrum,Der Keller ist kalt und dunkel.,The basement is cold and dark.,Nominativ,Mein Fahrrad steht im Keller.,My bike is in the basement.,Dativ
+41,Miete,die,die Mieten,rent,kira,Die Miete ist sehr hoch.,The rent is very high.,Nominativ,Ich zahle jeden Monat 600 Euro Miete.,I pay 600 euros rent every month.,Akkusativ
+42,Vermieter,der,die Vermieter,landlord,ev sahibi,Der Vermieter wohnt im Erdgeschoss.,The landlord lives on the ground floor.,Nominativ,Das ist die Telefonnummer des Vermieters.,That is the landlord's phone number.,Genitiv
+43,Mieter,der,die Mieter,tenant,kiracı,Der Mieter bezahlt pünktlich.,The tenant pays on time.,Nominativ,Der Vermieter spricht mit dem Mieter.,The landlord speaks with the tenant.,Dativ
+44,Heizung,die,die Heizungen,heating,"ısıtma, kalorifer",Die Heizung ist im Winter wichtig.,The heating is important in winter.,Nominativ,Ich drehe abends die Heizung herunter.,I turn the heating down in the evening.,Akkusativ
+45,Nebenkosten,die,die Nebenkosten (nur Plural),"additional costs, utilities","yan giderler, aidat ve faturalar",Die Nebenkosten sind nicht niedrig.,The additional costs are not low.,Nominativ,Ich bezahle die Nebenkosten extra.,I pay the additional costs separately.,Akkusativ
+46,Tisch,der,die Tische,table,masa,Der Tisch ist aus Holz.,The table is made of wood.,Nominativ,Wir stellen den Tisch ans Fenster.,We put the table by the window.,Akkusativ
+47,Stuhl,der,die Stühle,chair,sandalye,Der Stuhl ist sehr bequem.,The chair is very comfortable.,Nominativ,Ich sitze auf dem Stuhl neben dir.,I am sitting on the chair next to you.,Dativ
+48,Bett,das,die Betten,bed,yatak,Das Bett ist zu weich.,The bed is too soft.,Nominativ,Ich lese oft im Bett.,I often read in bed.,Dativ
+49,Schrank,der,die Schränke,"cabinet, wardrobe","dolap, gardırop",Der Schrank ist voll.,The wardrobe is full.,Nominativ,Ich hänge die Jacke in den Schrank.,I hang the jacket in the wardrobe.,Akkusativ
+50,Lampe,die,die Lampen,lamp,lamba,Die Lampe ist zu hell.,The lamp is too bright.,Nominativ,Ich brauche eine neue Lampe.,I need a new lamp.,Akkusativ
+51,Essen,das,die Essen (selten),"food, meal",yemek,Das Essen schmeckt sehr gut.,The food tastes very good.,Nominativ,Wir bestellen das Essen online.,We order the food online.,Akkusativ
+52,Frühstück,das,die Frühstücke (selten),breakfast,kahvaltı,Das Frühstück gibt es von sieben bis zehn Uhr.,Breakfast is served from seven to ten o'clock.,Nominativ,Ich esse zum Frühstück ein Ei.,I eat an egg for breakfast.,Dativ
+53,Mittagessen,das,die Mittagessen,lunch,öğle yemeği,Das Mittagessen ist fertig.,Lunch is ready.,Nominativ,Nach dem Mittagessen machen wir einen Spaziergang.,After lunch we go for a walk.,Dativ
+54,Abendessen,das,die Abendessen,"dinner, supper",akşam yemeği,Das Abendessen beginnt um sieben Uhr.,Dinner begins at seven o'clock.,Nominativ,Ich koche heute das Abendessen.,I am cooking dinner today.,Akkusativ
+55,Brot,das,die Brote,bread,ekmek,Das Brot ist noch frisch.,The bread is still fresh.,Nominativ,Ich kaufe ein Brot beim Bäcker.,I buy a loaf of bread at the baker's.,Akkusativ
+56,Brötchen,das,die Brötchen,bread roll,"küçük ekmek, sandviç ekmeği",Das Brötchen ist noch warm.,The bread roll is still warm.,Nominativ,Ich nehme ein Brötchen mit Käse.,I'll have a bread roll with cheese.,Akkusativ
+57,Butter,die,kein Plural (nur Singular),butter,tereyağı,Die Butter steht im Kühlschrank.,The butter is in the fridge.,Nominativ,Ich streiche Butter aufs Brot.,I spread butter on the bread.,Akkusativ
+58,Käse,der,die Käse,cheese,peynir,Der Käse kommt aus der Schweiz.,The cheese comes from Switzerland.,Nominativ,Ich mag keinen Käse.,I do not like cheese.,Akkusativ
+59,Milch,die,kein Plural (nur Singular),milk,süt,Die Milch ist schon abgelaufen.,The milk has already expired.,Nominativ,Wir brauchen die Milch für den Kuchen.,We need the milk for the cake.,Akkusativ
+60,Obst,das,kein Plural (nur Singular),fruit,meyve,Das Obst ist hier sehr frisch.,The fruit is very fresh here.,Nominativ,Wir kaufen das Obst auf dem Markt.,We buy the fruit at the market.,Akkusativ
+61,Gemüse,das,kein Plural (nur Singular),vegetables,sebze,Das Gemüse kommt vom Bauern.,The vegetables come from the farmer.,Nominativ,Ich esse viel Gemüse.,I eat a lot of vegetables.,Akkusativ
+62,Fleisch,das,kein Plural (nur Singular),meat,et,Das Fleisch ist zu teuer.,The meat is too expensive.,Nominativ,Ich esse selten Fleisch.,I rarely eat meat.,Akkusativ
+63,Fisch,der,die Fische,fish,balık,Der Fisch kommt direkt vom Markt.,The fish comes straight from the market.,Nominativ,Freitags essen wir Fisch.,On Fridays we eat fish.,Akkusativ
+64,Kuchen,der,die Kuchen,cake,"kek, pasta",Der Kuchen riecht wunderbar.,The cake smells wonderful.,Nominativ,Sie backt einen Kuchen für die Party.,She is baking a cake for the party.,Akkusativ
+65,Kaffee,der,die Kaffees (selten),coffee,kahve,Der Kaffee ist heiß.,The coffee is hot.,Nominativ,Ich trinke morgens Kaffee mit Milch.,I drink coffee with milk in the morning.,Akkusativ
+66,Tee,der,die Tees,tea,çay,Der Tee ist noch zu heiß.,The tea is still too hot.,Nominativ,Möchten Sie einen Tee?,Would you like a tea?,Akkusativ
+67,Wasser,das,die Wasser (selten),water,su,Das Wasser ist kalt.,The water is cold.,Nominativ,Ich bestelle ein Wasser ohne Kohlensäure.,I order a still water.,Akkusativ
+68,Getränk,das,die Getränke,"drink, beverage",içecek,Das Getränk ist im Preis enthalten.,The drink is included in the price.,Nominativ,Ich nehme ein kaltes Getränk.,I'll take a cold drink.,Akkusativ
+69,Speisekarte,die,die Speisekarten,menu,"menü, yemek listesi",Die Speisekarte ist auf Deutsch und Englisch.,The menu is in German and English.,Nominativ,Der Kellner bringt uns die Speisekarte.,The waiter brings us the menu.,Akkusativ
+70,Rechnung,die,die Rechnungen,"bill, invoice","hesap, fatura",Die Rechnung kommt gleich.,The bill is coming right away.,Nominativ,Wir bezahlen die Rechnung bar.,We pay the bill in cash.,Akkusativ
+71,Restaurant,das,die Restaurants,restaurant,restoran,Das Restaurant ist am Montag geschlossen.,The restaurant is closed on Monday.,Nominativ,Wir gehen heute in ein italienisches Restaurant.,We are going to an Italian restaurant today.,Akkusativ
+72,Supermarkt,der,die Supermärkte,supermarket,süpermarket,Der Supermarkt öffnet um sieben Uhr.,The supermarket opens at seven o'clock.,Nominativ,Ich arbeite im Supermarkt.,I work in the supermarket.,Dativ
+73,Geschäft,das,die Geschäfte,"shop, store, business","dükkan, mağaza, iş",Das Geschäft hat bis zwanzig Uhr geöffnet.,The shop is open until eight p.m.,Nominativ,Ich kenne ein gutes Geschäft für Schuhe.,I know a good shop for shoes.,Akkusativ
+74,Einkauf,der,die Einkäufe,"purchase, shopping",alışveriş,Der Einkauf dauert nicht lange.,The shopping does not take long.,Nominativ,Ich trage den Einkauf nach Hause.,I carry the shopping home.,Akkusativ
+75,Preis,der,die Preise,price,fiyat,Der Preis ist in Ordnung.,The price is fine.,Nominativ,Ich vergleiche die Preise im Internet.,I compare the prices on the internet.,Akkusativ
+76,Arbeit,die,die Arbeiten,"work, job","iş, çalışma",Die Arbeit macht mir Spaß.,I enjoy my work.,Nominativ,Ich fahre mit dem Bus zur Arbeit.,I take the bus to work.,Dativ
+77,Beruf,der,die Berufe,"profession, occupation",meslek,Mein Beruf ist sehr abwechslungsreich.,My job is very varied.,Nominativ,Welchen Beruf möchtest du später lernen?,Which profession would you like to learn later?,Akkusativ
+78,Stelle,die,die Stellen,"position, job","iş ilanı, pozisyon",Die Stelle ist noch frei.,The position is still open.,Nominativ,Ich suche eine neue Stelle.,I am looking for a new job.,Akkusativ
+79,Firma,die,die Firmen,company,"firma, şirket",Die Firma hat 200 Mitarbeiter.,The company has 200 employees.,Nominativ,Ich arbeite seit drei Jahren in dieser Firma.,I have worked at this company for three years.,Dativ
+80,Büro,das,die Büros,office,"büro, ofis",Das Büro ist im dritten Stock.,The office is on the third floor.,Nominativ,Ich gehe jetzt ins Büro.,I am going to the office now.,Akkusativ
+81,Termin,der,die Termine,"appointment, date","randevu, tarih",Der Termin ist am Dienstag um zehn Uhr.,The appointment is on Tuesday at ten o'clock.,Nominativ,Ich brauche einen Termin beim Arzt.,I need an appointment at the doctor's.,Akkusativ
+82,Besprechung,die,die Besprechungen,"meeting, discussion","toplantı, görüşme",Die Besprechung beginnt in zehn Minuten.,The meeting begins in ten minutes.,Nominativ,Ich bin gerade in einer Besprechung.,I am in a meeting right now.,Dativ
+83,Vertrag,der,die Verträge,contract,sözleşme,Der Vertrag läuft ein Jahr.,The contract runs for one year.,Nominativ,Ich unterschreibe den Vertrag morgen.,I will sign the contract tomorrow.,Akkusativ
+84,Gehalt,das,die Gehälter,salary,maaş,Das Gehalt kommt am Monatsende.,The salary arrives at the end of the month.,Nominativ,Ich bin mit meinem Gehalt zufrieden.,I am satisfied with my salary.,Dativ
+85,Bewerbung,die,die Bewerbungen,application,başvuru,Die Bewerbung ist fertig.,The application is finished.,Nominativ,Ich schicke die Bewerbung per E-Mail.,I send the application by email.,Akkusativ
+86,Lebenslauf,der,die Lebensläufe,"CV, résumé",özgeçmiş,Der Lebenslauf ist leider zu lang.,The CV is unfortunately too long.,Nominativ,Bitte schicken Sie uns Ihren Lebenslauf.,Please send us your CV.,Akkusativ
+87,Vorstellungsgespräch,das,die Vorstellungsgespräche,job interview,iş görüşmesi,Das Vorstellungsgespräch ist morgen.,The job interview is tomorrow.,Nominativ,Ich bereite mich auf das Vorstellungsgespräch vor.,I am preparing for the job interview.,Akkusativ
+88,Erfahrung,die,die Erfahrungen,experience,"deneyim, tecrübe",Die Erfahrung ist in diesem Beruf wichtig.,Experience is important in this profession.,Nominativ,Ich habe viel Erfahrung im Verkauf.,I have a lot of experience in sales.,Akkusativ
+89,Kunde,der,die Kunden,customer,müşteri,Der Kunde wartet an der Kasse.,The customer is waiting at the checkout.,Nominativ,Wir beraten den Kunden freundlich.,We advise the customer in a friendly way.,Akkusativ
+90,Kellner,der,die Kellner,waiter,garson,Der Kellner ist sehr nett.,The waiter is very nice.,Nominativ,Ich bitte den Kellner um die Rechnung.,I ask the waiter for the bill.,Akkusativ
+91,Arzt,der,die Ärzte,doctor (male),"doktor, hekim",Der Arzt hat heute bis 18 Uhr Sprechstunde.,The doctor has office hours until 6 p.m. today.,Nominativ,Ich gehe morgen zum Arzt.,I am going to the doctor tomorrow.,Dativ
+92,Lehrer,der,die Lehrer,teacher (male),öğretmen,Der Lehrer erklärt die Grammatik.,The teacher explains the grammar.,Nominativ,Ich frage den Lehrer nach der Hausaufgabe.,I ask the teacher about the homework.,Akkusativ
+93,Student,der,die Studenten,student (university),üniversite öğrencisi,Der Student lernt für die Prüfung.,The student is studying for the exam.,Nominativ,Ich helfe dem Studenten bei der Wohnungssuche.,I help the student look for an apartment.,Dativ
+94,Pause,die,die Pausen,break,mola,Die Pause dauert zehn Minuten.,The break lasts ten minutes.,Nominativ,Wir machen jetzt eine Pause.,We are taking a break now.,Akkusativ
+95,Urlaub,der,die Urlaube (selten),"vacation, holiday","tatil, izin",Der Urlaub war wunderschön.,The vacation was beautiful.,Nominativ,Ich nehme im August Urlaub.,I am taking vacation in August.,Akkusativ
+96,Aufgabe,die,die Aufgaben,"task, exercise","görev, ödev, alıştırma",Die Aufgabe ist nicht schwer.,The task is not difficult.,Nominativ,Ich löse die Aufgabe allein.,I solve the task alone.,Akkusativ
+97,Meinung,die,die Meinungen,opinion,"görüş, fikir",Meine Meinung ist anders.,My opinion is different.,Nominativ,Ich sage dir ehrlich meine Meinung.,I honestly tell you my opinion.,Akkusativ
+98,Grund,der,die Gründe,reason,"sebep, neden",Der Grund ist einfach.,The reason is simple.,Nominativ,Ich habe keinen Grund zur Sorge.,I have no reason to worry.,Akkusativ
+99,Mitarbeiter,der,die Mitarbeiter,"employee, co-worker","çalışan, personel",Der Mitarbeiter hilft Ihnen gern.,The employee will be happy to help you.,Nominativ,Die Firma sucht neue Mitarbeiter.,The company is looking for new employees.,Akkusativ
+100,Ausbildung,die,die Ausbildungen,vocational training,meslek eğitimi,Die Ausbildung dauert drei Jahre.,The training takes three years.,Nominativ,Ich mache eine Ausbildung als Mechaniker.,I am doing training as a mechanic.,Akkusativ
+101,Schule,die,die Schulen,school,okul,Die Schule beginnt um acht Uhr.,School starts at eight o'clock.,Nominativ,Meine Kinder gehen gern in die Schule.,My children like going to school.,Akkusativ
+102,Universität,die,die Universitäten,university,üniversite,Die Universität liegt im Zentrum.,The university is in the center.,Nominativ,Meine Schwester studiert an der Universität.,My sister studies at the university.,Dativ
+103,Kurs,der,die Kurse,course,kurs,Der Kurs findet jeden Montag statt.,The course takes place every Monday.,Nominativ,Ich mache einen Kurs für Anfänger.,I am taking a course for beginners.,Akkusativ
+104,Prüfung,die,die Prüfungen,"exam, test",sınav,Die Prüfung ist nächste Woche.,The exam is next week.,Nominativ,Ich lerne für die Prüfung.,I am studying for the exam.,Akkusativ
+105,Klasse,die,die Klassen,"class, grade",sınıf,Die Klasse hat 25 Schüler.,The class has 25 students.,Nominativ,Der Lehrer spricht mit der ganzen Klasse.,The teacher speaks with the whole class.,Dativ
+106,Hausaufgabe,die,die Hausaufgaben,homework (assignment),ev ödevi,Die Hausaufgabe ist sehr schwer.,The homework is very hard.,Nominativ,Ich mache die Hausaufgabe nach dem Essen.,I do the homework after dinner.,Akkusativ
+107,Frage,die,die Fragen,question,soru,Die Frage ist nicht einfach.,The question is not easy.,Nominativ,Ich habe noch eine Frage.,I still have one question.,Akkusativ
+108,Antwort,die,die Antworten,answer,cevap,Die Antwort ist richtig.,The answer is correct.,Nominativ,Ich warte auf Ihre Antwort.,I am waiting for your answer.,Akkusativ
+109,Wort,das,"die Wörter, die Worte",word,"kelime, söz",Das Wort ist neu für mich.,The word is new to me.,Nominativ,Ich suche das Wort im Wörterbuch.,I look for the word in the dictionary.,Akkusativ
+110,Satz,der,die Sätze,sentence,cümle,Der Satz ist zu lang.,The sentence is too long.,Nominativ,Bitte schreiben Sie einen Satz.,Please write a sentence.,Akkusativ
+111,Text,der,die Texte,text,metin,Der Text ist leicht zu verstehen.,The text is easy to understand.,Nominativ,Wir lesen den Text zusammen.,We read the text together.,Akkusativ
+112,Buch,das,die Bücher,book,kitap,Das Buch ist sehr spannend.,The book is very exciting.,Nominativ,Ich lese jeden Abend ein Buch.,I read a book every evening.,Akkusativ
+113,Zeitung,die,die Zeitungen,newspaper,gazete,Die Zeitung kommt jeden Morgen.,The newspaper arrives every morning.,Nominativ,Ich lese die Zeitung im Café.,I read the newspaper in the café.,Akkusativ
+114,Brief,der,die Briefe,letter,mektup,Der Brief kommt aus Spanien.,The letter comes from Spain.,Nominativ,Ich schreibe einen Brief an meine Oma.,I am writing a letter to my grandma.,Akkusativ
+115,E-Mail,die,die E-Mails,email,e-posta,Die E-Mail ist gestern angekommen.,The email arrived yesterday.,Nominativ,Ich schreibe dir später eine E-Mail.,I will write you an email later.,Akkusativ
+116,Nachricht,die,die Nachrichten,"message, news","mesaj, haber",Die Nachricht ist von meiner Schwester.,The message is from my sister.,Nominativ,Ich schicke dir eine Nachricht.,I am sending you a message.,Akkusativ
+117,Telefon,das,die Telefone,telephone,telefon,Das Telefon klingelt.,The phone is ringing.,Nominativ,Ich bin gerade am Telefon.,I am on the phone right now.,Dativ
+118,Handy,das,die Handys,mobile phone,cep telefonu,Das Handy ist leider kaputt.,The mobile phone is unfortunately broken.,Nominativ,Ich lade mein Handy jeden Abend auf.,I charge my mobile phone every evening.,Akkusativ
+119,Nummer,die,die Nummern,number,numara,Die Nummer ist besetzt.,The number is busy.,Nominativ,Ich wähle die Nummer noch einmal.,I dial the number once more.,Akkusativ
+120,Adresse,die,die Adressen,address,adres,Die Adresse steht auf dem Brief.,The address is on the letter.,Nominativ,Ich gebe dir meine neue Adresse.,I will give you my new address.,Akkusativ
+121,Formular,das,die Formulare,form,"form, dilekçe formu",Das Formular ist nicht lang.,The form is not long.,Nominativ,Ich brauche ein Formular für den Antrag.,I need a form for the application.,Akkusativ
+122,Information,die,die Informationen,information,bilgi,Die Information ist sehr wichtig.,The information is very important.,Nominativ,Ich suche Informationen über den Kurs.,I am looking for information about the course.,Akkusativ
+123,Sprache,die,die Sprachen,language,dil,Deutsch ist eine schöne Sprache.,German is a beautiful language.,Nominativ,Ich lerne eine neue Sprache.,I am learning a new language.,Akkusativ
+124,Gespräch,das,die Gespräche,"conversation, talk","konuşma, görüşme",Das Gespräch dauert nicht lange.,The conversation does not take long.,Nominativ,Nach dem Gespräch fühle ich mich besser.,After the conversation I feel better.,Dativ
+125,Problem,das,die Probleme,problem,sorun,Das Problem ist nicht groß.,The problem is not big.,Nominativ,Wir lösen das Problem zusammen.,We solve the problem together.,Akkusativ
+126,Bahnhof,der,die Bahnhöfe,train station,tren istasyonu,Der Bahnhof ist nur fünf Minuten entfernt.,The train station is only five minutes away.,Nominativ,Ich hole dich am Bahnhof ab.,I will pick you up at the train station.,Dativ
+127,Zug,der,die Züge,train,tren,Der Zug hat Verspätung.,The train is delayed.,Nominativ,Ich nehme den Zug um acht Uhr.,I take the eight o'clock train.,Akkusativ
+128,Bus,der,die Busse,bus,otobüs,Der Bus kommt alle zehn Minuten.,The bus comes every ten minutes.,Nominativ,Wir warten schon lange auf den Bus.,We have been waiting for the bus for a long time.,Akkusativ
+129,Straße,die,die Straßen,"street, road","cadde, sokak",Die Straße ist heute gesperrt.,The street is closed today.,Nominativ,Wir gehen über die Straße.,We are crossing the street.,Akkusativ
+130,Auto,das,die Autos,car,araba,Das Auto steht vor der Tür.,The car is parked in front of the door.,Nominativ,Wir kommen mit dem Auto.,We are coming by car.,Dativ
+131,Fahrrad,das,die Fahrräder,bicycle,bisiklet,Das Fahrrad ist ziemlich neu.,The bicycle is quite new.,Nominativ,Ich fahre gern mit dem Fahrrad.,I like riding my bike.,Dativ
+132,Flugzeug,das,die Flugzeuge,airplane,uçak,Das Flugzeug startet um zwölf Uhr.,The plane takes off at twelve o'clock.,Nominativ,Wir reisen mit dem Flugzeug.,We travel by plane.,Dativ
+133,Flughafen,der,die Flughäfen,airport,havalimanı,Der Flughafen ist weit von der Stadt entfernt.,The airport is far from the city.,Nominativ,Ich fahre zum Flughafen.,I am going to the airport.,Dativ
+134,Fahrkarte,die,die Fahrkarten,ticket (for travel),bilet,Die Fahrkarte kostet fünf Euro.,The ticket costs five euros.,Nominativ,Ich kaufe eine Fahrkarte am Automaten.,I buy a ticket at the machine.,Akkusativ
+135,Haltestelle,die,die Haltestellen,"stop (bus, tram)",durak,Die Haltestelle ist nicht weit von hier.,The stop is not far from here.,Nominativ,Ich warte an der Haltestelle.,I am waiting at the stop.,Dativ
+136,Reise,die,die Reisen,"trip, journey","seyahat, yolculuk",Die Reise war sehr schön.,The trip was very nice.,Nominativ,Ich plane eine Reise nach Italien.,I am planning a trip to Italy.,Akkusativ
+137,Hotel,das,die Hotels,hotel,otel,Das Hotel hat ein Schwimmbad.,The hotel has a swimming pool.,Nominativ,Wir übernachten in einem kleinen Hotel.,We are staying overnight in a small hotel.,Dativ
+138,Koffer,der,die Koffer,suitcase,"bavul, valiz",Der Koffer ist zu schwer.,The suitcase is too heavy.,Nominativ,Ich packe meinen Koffer.,I am packing my suitcase.,Akkusativ
+139,Gepäck,das,kein Plural (nur Singular),luggage,bagaj,Das Gepäck ist schon im Auto.,The luggage is already in the car.,Nominativ,Ich gebe mein Gepäck am Schalter ab.,I hand in my luggage at the counter.,Akkusativ
+140,Pass,der,die Pässe,passport,pasaport,Der Pass ist noch gültig.,The passport is still valid.,Nominativ,Zeigen Sie bitte Ihren Pass.,Please show your passport.,Akkusativ
+141,Weg,der,die Wege,"way, path",yol,Der Weg zum Bahnhof ist kurz.,The way to the station is short.,Nominativ,Wir nehmen den kürzesten Weg.,We take the shortest way.,Akkusativ
+142,Ampel,die,die Ampeln,traffic light,trafik lambası,Die Ampel ist rot.,The traffic light is red.,Nominativ,Wir warten an der Ampel.,We wait at the traffic light.,Dativ
+143,Ecke,die,die Ecken,corner,köşe,Die Ecke ist sehr gefährlich.,The corner is very dangerous.,Nominativ,Der Supermarkt ist gleich um die Ecke.,The supermarket is just around the corner.,Akkusativ
+144,Unfall,der,die Unfälle,accident,kaza,Der Unfall ist gestern passiert.,The accident happened yesterday.,Nominativ,Bei dem Unfall wurde niemand verletzt.,Nobody was injured in the accident.,Dativ
+145,Verspätung,die,die Verspätungen,delay,gecikme,Die Verspätung beträgt zwanzig Minuten.,The delay is twenty minutes.,Nominativ,Wegen der Verspätung verpasse ich den Anschluss.,Because of the delay I miss the connection.,Genitiv
+146,Gleis,das,die Gleise,"platform, track","peron, ray",Das Gleis ist heute geändert.,The platform has been changed today.,Nominativ,Ich suche das Gleis für den Zug nach Köln.,I am looking for the platform for the train to Cologne.,Akkusativ
+147,Fahrer,der,die Fahrer,driver,"şoför, sürücü",Der Fahrer wartet vor dem Hotel.,The driver is waiting in front of the hotel.,Nominativ,Wir fragen den Fahrer nach dem Preis.,We ask the driver about the price.,Akkusativ
+148,Ausflug,der,die Ausflüge,"excursion, trip",gezi,Der Ausflug war ein Erfolg.,The excursion was a success.,Nominativ,Ich freue mich auf den Ausflug.,I am looking forward to the excursion.,Akkusativ
+149,Grenze,die,die Grenzen,border,sınır,Die Grenze ist nur zwei Kilometer entfernt.,The border is only two kilometers away.,Nominativ,Wir überqueren die Grenze am Morgen.,We cross the border in the morning.,Akkusativ
+150,Polizei,die,kein Plural (nur Singular),police,polis,Die Polizei kommt sofort.,The police are coming immediately.,Nominativ,Der Mann spricht mit der Polizei.,The man is talking to the police.,Dativ
+151,Gesundheit,die,kein Plural (nur Singular),health,sağlık,Die Gesundheit ist das Wichtigste.,Health is the most important thing.,Nominativ,Ich achte auf meine Gesundheit.,I take care of my health.,Akkusativ
+152,Krankheit,die,die Krankheiten,"illness, disease",hastalık,Die Krankheit dauert schon eine Woche.,The illness has already lasted a week.,Nominativ,Wegen der Krankheit bleibt er zu Hause.,Because of the illness he stays at home.,Genitiv
+153,Fieber,das,kein Plural (nur Singular),fever,ateş,Das Fieber ist hoch.,The fever is high.,Nominativ,Mein Sohn hat Fieber.,My son has a fever.,Akkusativ
+154,Schmerz,der,die Schmerzen,pain,ağrı,Der Schmerz wird langsam besser.,The pain is slowly getting better.,Nominativ,Ich nehme eine Tablette gegen die Schmerzen.,I take a tablet for the pain.,Akkusativ
+155,Kopf,der,die Köpfe,head,baş,Der Kopf des Kindes ist sehr warm.,The child's head is very warm.,Nominativ,Ich schüttele den Kopf.,I shake my head.,Akkusativ
+156,Rücken,der,die Rücken,back,"sırt, bel",Mein Rücken ist heute steif.,My back is stiff today.,Nominativ,Ich habe Probleme mit dem Rücken.,I have problems with my back.,Dativ
+157,Hals,der,die Hälse,"throat, neck","boğaz, boyun",Der Hals ist heute ganz rau.,My throat is quite scratchy today.,Nominativ,Ich trage einen Schal um den Hals.,I wear a scarf around my neck.,Akkusativ
+158,Magen,der,die Mägen,stomach,mide,Mein Magen ist nicht in Ordnung.,My stomach is not okay.,Nominativ,Nach dem Essen liegt mir etwas schwer im Magen.,After the meal something sits heavily in my stomach.,Dativ
+159,Hand,die,die Hände,hand,el,Die Hand ist verletzt.,The hand is injured.,Nominativ,Ich gebe dem Arzt die Hand.,I shake the doctor's hand.,Akkusativ
+160,Fuß,der,die Füße,foot,ayak,Der Fuß tut mir weh.,My foot hurts.,Nominativ,Ich habe mir den Fuß verstaucht.,I sprained my foot.,Akkusativ
+161,Auge,das,die Augen,eye,göz,Das Auge ist rot.,The eye is red.,Nominativ,Ich schließe kurz die Augen.,I close my eyes briefly.,Akkusativ
+162,Ohr,das,die Ohren,ear,kulak,Das Ohr ist ganz kalt.,The ear is completely cold.,Nominativ,Ich höre auf dem rechten Ohr schlecht.,I hear poorly in my right ear.,Dativ
+163,Zahn,der,die Zähne,tooth,diş,Der Zahn ist locker.,The tooth is loose.,Nominativ,Ich putze mir dreimal am Tag die Zähne.,I brush my teeth three times a day.,Akkusativ
+164,Medikament,das,die Medikamente,"medicine, medication",ilaç,Das Medikament hilft schnell.,The medicine works quickly.,Nominativ,Ich nehme jeden Morgen ein Medikament.,I take a medication every morning.,Akkusativ
+165,Tablette,die,die Tabletten,"tablet, pill","hap, tablet",Die Tablette schmeckt bitter.,The tablet tastes bitter.,Nominativ,Ich nehme dreimal täglich eine Tablette.,I take one tablet three times a day.,Akkusativ
+166,Apotheke,die,die Apotheken,pharmacy,eczane,Die Apotheke hat sonntags geschlossen.,The pharmacy is closed on Sundays.,Nominativ,Ich hole das Medikament in der Apotheke.,I pick up the medicine at the pharmacy.,Dativ
+167,Krankenhaus,das,die Krankenhäuser,hospital,hastane,Das Krankenhaus liegt am Stadtrand.,The hospital is on the outskirts of the city.,Nominativ,Mein Opa liegt im Krankenhaus.,My grandpa is in the hospital.,Dativ
+168,Versicherung,die,die Versicherungen,insurance,sigorta,Die Versicherung bezahlt die Behandlung.,The insurance pays for the treatment.,Nominativ,Ich habe eine private Versicherung.,I have private insurance.,Akkusativ
+169,Rezept,das,die Rezepte,"prescription, recipe","reçete, tarif",Das Rezept ist von meinem Hausarzt.,The prescription is from my family doctor.,Nominativ,Ich brauche ein Rezept für die Tabletten.,I need a prescription for the tablets.,Akkusativ
+170,Grippe,die,kein Plural (nur Singular),flu,grip,Die Grippe ist sehr ansteckend.,The flu is very contagious.,Nominativ,Ich habe leider die Grippe.,"Unfortunately, I have the flu.",Akkusativ
+171,Praxis,die,die Praxen,doctor's office,muayenehane,Die Praxis öffnet um acht Uhr.,The doctor's office opens at eight o'clock.,Nominativ,Ich warte schon lange in der Praxis.,I have been waiting in the doctor's office for a long time.,Dativ
+172,Husten,der,kein Plural (nur Singular),cough,öksürük,Der Husten ist schlimmer geworden.,The cough has gotten worse.,Nominativ,Ich habe seit drei Tagen Husten.,I have had a cough for three days.,Akkusativ
+173,Erkältung,die,die Erkältungen,cold (illness),"soğuk algınlığı, nezle",Die Erkältung dauert eine Woche.,The cold lasts a week.,Nominativ,Ich habe mir eine Erkältung geholt.,I caught a cold.,Akkusativ
+174,Arm,der,die Arme,arm,kol,Der Arm ist gebrochen.,The arm is broken.,Nominativ,Der Arzt untersucht den Arm.,The doctor examines the arm.,Akkusativ
+175,Bein,das,die Beine,leg,bacak,Das Bein ist geschwollen.,The leg is swollen.,Nominativ,Ich bewege das Bein vorsichtig.,I move my leg carefully.,Akkusativ
+176,Wetter,das,kein Plural (nur Singular),weather,hava durumu,Das Wetter ist heute schön.,The weather is nice today.,Nominativ,Bei schlechtem Wetter bleiben wir zu Hause.,When the weather is bad we stay at home.,Dativ
+177,Sonne,die,kein Plural (nur Singular),sun,güneş,Die Sonne geht um sechs Uhr auf.,The sun rises at six o'clock.,Nominativ,Ich sitze gern in der Sonne.,I like sitting in the sun.,Dativ
+178,Regen,der,kein Plural (nur Singular),rain,yağmur,Der Regen hört bald auf.,The rain will stop soon.,Nominativ,Wir gehen trotz des Regens spazieren.,We go for a walk despite the rain.,Genitiv
+179,Wochenende,das,die Wochenenden,weekend,hafta sonu,Das Wochenende ist leider schon vorbei.,"Unfortunately, the weekend is already over.",Nominativ,Am Wochenende besuche ich meine Eltern.,On the weekend I visit my parents.,Dativ
+180,Woche,die,die Wochen,week,hafta,Die Woche hat sieben Tage.,The week has seven days.,Nominativ,Ich arbeite diese Woche von zu Hause.,I am working from home this week.,Akkusativ
+181,Monat,der,die Monate,month,ay,Der Monat ist schnell vorbei.,The month is over quickly.,Nominativ,Ich zahle die Miete jeden Monat.,I pay the rent every month.,Akkusativ
+182,Jahr,das,die Jahre,year,yıl,Das Jahr hat zwölf Monate.,The year has twelve months.,Nominativ,Ich lerne seit einem Jahr Deutsch.,I have been learning German for a year.,Dativ
+183,Tag,der,die Tage,day,gün,Der Tag war sehr lang.,The day was very long.,Nominativ,Ich arbeite den ganzen Tag.,I work all day.,Akkusativ
+184,Morgen,der,die Morgen,morning,sabah,Der Morgen beginnt mit einem Kaffee.,The morning starts with a coffee.,Nominativ,Am Morgen gehe ich joggen.,In the morning I go jogging.,Dativ
+185,Abend,der,die Abende,evening,akşam,Der Abend war sehr schön.,The evening was very nice.,Nominativ,Am Abend sehen wir fern.,In the evening we watch TV.,Dativ
+186,Zeit,die,die Zeiten,time,"zaman, vakit",Die Zeit vergeht schnell.,Time passes quickly.,Nominativ,Ich habe heute keine Zeit.,I have no time today.,Akkusativ
+187,Sport,der,kein Plural (nur Singular),sport(s),spor,Der Sport macht mir Spaß.,I enjoy sports.,Nominativ,Ich treibe dreimal pro Woche Sport.,I do sports three times a week.,Akkusativ
+188,Musik,die,kein Plural (nur Singular),music,müzik,Die Musik ist zu laut.,The music is too loud.,Nominativ,Ich höre gern Musik.,I like listening to music.,Akkusativ
+189,Film,der,die Filme,"film, movie",film,Der Film beginnt um acht Uhr.,The film starts at eight o'clock.,Nominativ,Wir sehen heute einen Film.,We are watching a film today.,Akkusativ
+190,Kino,das,die Kinos,"cinema, movie theater",sinema,Das Kino ist gleich neben dem Café.,The cinema is right next to the café.,Nominativ,Wir gehen heute ins Kino.,We are going to the cinema today.,Akkusativ
+191,Konzert,das,die Konzerte,concert,konser,Das Konzert war ausverkauft.,The concert was sold out.,Nominativ,Ich gehe heute Abend zu einem Konzert.,I am going to a concert tonight.,Dativ
+192,Hobby,das,die Hobbys,hobby,hobi,Mein Hobby ist Fotografieren.,My hobby is photography.,Nominativ,Ich habe ein neues Hobby.,I have a new hobby.,Akkusativ
+193,Stadt,die,die Städte,"city, town",şehir,Die Stadt ist sehr groß.,The city is very big.,Nominativ,Ich wohne gern in der Stadt.,I like living in the city.,Dativ
+194,Land,das,die Länder,"country, countryside","ülke, kırsal bölge",Das Land ist sehr schön.,The country is very beautiful.,Nominativ,Meine Oma lebt auf dem Land.,My grandma lives in the countryside.,Dativ
+195,Umwelt,die,kein Plural (nur Singular),environment,çevre,Die Umwelt ist uns wichtig.,The environment is important to us.,Nominativ,Plastik ist schlecht für die Umwelt.,Plastic is bad for the environment.,Akkusativ
+196,Geld,das,kein Plural (nur Singular),money,para,Das Geld liegt auf dem Tisch.,The money is lying on the table.,Nominativ,Ich brauche mehr Geld.,I need more money.,Akkusativ
+197,Bank,die,die Banken,bank,banka,Die Bank macht um neun Uhr auf.,The bank opens at nine o'clock.,Nominativ,Ich gehe zur Bank.,I am going to the bank.,Dativ
+198,Konto,das,die Konten,account,banka hesabı,Das Konto ist leer.,The account is empty.,Nominativ,Ich eröffne ein neues Konto.,I am opening a new account.,Akkusativ
+199,Post,die,kein Plural (nur Singular),"post office, mail","postane, posta",Die Post hat bis achtzehn Uhr geöffnet.,The post office is open until six p.m.,Nominativ,Ich bringe den Brief zur Post.,I take the letter to the post office.,Dativ
+200,Paket,das,die Pakete,"package, parcel","paket, koli",Das Paket ist heute angekommen.,The package arrived today.,Nominativ,Ich hole ein Paket bei der Post ab.,I pick up a package at the post office.,Akkusativ
