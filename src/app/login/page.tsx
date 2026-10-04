@@ -27,7 +27,7 @@ export default function LoginPage() {
           name="password"
           autoFocus
           required
-          className="mb-3 w-full rounded-md border border-neutral-300 px-3 py-2 text-base outline-none focus:border-neutral-500 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
+          className="mb-3 w-full rounded-md border border-neutral-300 px-3 py-2 text-base outline-none focus:border-accent dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
         />
 
         {state.error && (
@@ -39,7 +39,7 @@ export default function LoginPage() {
         <button
           type="submit"
           disabled={pending}
-          className="w-full rounded-md bg-neutral-900 px-4 py-2 text-base font-medium text-white disabled:opacity-50 dark:bg-neutral-100 dark:text-neutral-900"
+          className="w-full rounded-md bg-accent px-4 py-2 text-base font-medium text-accent-foreground transition-transform active:scale-95 disabled:opacity-50"
         >
           {pending ? "Checking..." : "Enter"}
         </button>

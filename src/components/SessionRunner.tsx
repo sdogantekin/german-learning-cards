@@ -17,6 +17,22 @@ function requeueWrong(remaining: CardType[], card: CardType): CardType[] {
   return next;
 }
 
+function formatElapsed(ms: number): string {
+  const totalSeconds = Math.max(0, Math.round(ms / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}m ${seconds.toString().padStart(2, "0")}s`;
+}
+
+function StreakBadge({ streak }: { streak: number }) {
+  if (streak < 2) return null;
+  return (
+    <span className="inline-flex items-center gap-1 rounded-full bg-accent-soft px-2.5 py-1 text-xs font-semibold text-accent">
+      {streak} in a row
+    </span>
+  );
+}
+
 export default function SessionRunner({
   sessionId,
   initialPool,
@@ -29,6 +45,10 @@ export default function SessionRunner({
   const [flipped, setFlipped] = useState(false);
   const [finished, setFinished] = useState(false);
   const [tally, setTally] = useState({ correct: 0, wrong: 0 });
+  const [streak, setStreak] = useState(0);
+  const [bestStreak, setBestStreak] = useState(0);
+  const [startedAt] = useState(() => Date.now());
+  const [elapsedMs, setElapsedMs] = useState(0);
 
   const totalWords = initialPool.length;
   const current = queue[0];
@@ -49,6 +69,12 @@ export default function SessionRunner({
       isCorrect ? { ...t, correct: t.correct + 1 } : { ...t, wrong: t.wrong + 1 }
     );
 
+    setStreak((s) => {
+      const next = isCorrect ? s + 1 : 0;
+      setBestStreak((best) => Math.max(best, next));
+      return next;
+    });
+
     const remaining = queue.slice(1);
     const nextQueue = isCorrect ? remaining : requeueWrong(remaining, current);
 
@@ -57,6 +83,7 @@ export default function SessionRunner({
 
     if (nextQueue.length === 0) {
       endSession(sessionId, "completed").catch(console.error);
+      setElapsedMs(Date.now() - startedAt);
       setFinished(true);
     }
   }
@@ -67,18 +94,35 @@ export default function SessionRunner({
   }
 
   if (finished || !current) {
+    const totalAnswers = tally.correct + tally.wrong;
+    const accuracy =
+      totalAnswers === 0 ? 100 : Math.round((tally.correct / totalAnswers) * 100);
+
     return (
-      <div className="flex flex-1 flex-col items-center justify-center gap-4 text-center">
-        <h2 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-          Session complete!
-        </h2>
-        <p className="text-neutral-600 dark:text-neutral-400">
-          {totalWords} words practiced · {tally.correct} correct answers ·{" "}
-          {tally.wrong} wrong attempts
-        </p>
+      <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
+        <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full border-4 border-accent">
+          <span className="text-3xl font-bold text-accent">{accuracy}%</span>
+          <span className="text-xs text-neutral-500 dark:text-neutral-400">
+            accuracy
+          </span>
+        </div>
+        <div>
+          <h2 className="mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
+            Session complete!
+          </h2>
+          <p className="text-neutral-600 dark:text-neutral-400">
+            {totalWords} words · {tally.correct} correct · {tally.wrong} wrong
+            attempts · {formatElapsed(elapsedMs)}
+          </p>
+          {bestStreak >= 3 && (
+            <p className="mt-1 text-sm font-medium text-accent">
+              Best streak: {bestStreak} in a row
+            </p>
+          )}
+        </div>
         <button
           onClick={() => router.push("/")}
-          className="rounded-md bg-neutral-900 px-4 py-2 text-white dark:bg-neutral-100 dark:text-neutral-900"
+          className="rounded-md bg-accent px-5 py-2.5 font-medium text-accent-foreground transition-transform active:scale-95"
         >
           Start a new session
         </button>
@@ -88,35 +132,44 @@ export default function SessionRunner({
 
   const remainingCount = queue.length;
   const doneCount = totalWords - remainingCount;
+  const progressPct = totalWords === 0 ? 0 : Math.round((doneCount / totalWords) * 100);
 
   return (
     <div className="flex w-full flex-1 flex-col items-center gap-6">
-      <div className="flex w-full max-w-md items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-        <span>
-          {doneCount} / {totalWords} done
-        </span>
-        <button onClick={handleEndEarly} className="underline">
-          End session
-        </button>
+      <div className="w-full max-w-md">
+        <div className="mb-2 flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
+          <span>
+            {doneCount} / {totalWords} done
+          </span>
+          <button onClick={handleEndEarly} className="underline">
+            End session
+          </button>
+        </div>
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-200 dark:bg-neutral-800">
+          <div
+            className="h-full rounded-full bg-accent transition-all duration-300"
+            style={{ width: `${progressPct}%` }}
+          />
+        </div>
       </div>
 
       <Card card={current} flipped={flipped} onFlip={() => setFlipped(true)} />
 
-      {!flipped ? (
-        <p className="text-sm text-neutral-500 dark:text-neutral-400">
-          Tap the card to reveal the answer
-        </p>
-      ) : (
+      <div className="flex h-9 items-center">
+        <StreakBadge streak={streak} />
+      </div>
+
+      {flipped && (
         <div className="flex w-full max-w-md gap-4">
           <button
             onClick={() => handleAnswer(false)}
-            className="flex-1 rounded-md border border-red-500 px-4 py-3 font-medium text-red-600 dark:text-red-400"
+            className="flex-1 rounded-md border border-red-500 px-4 py-3 font-medium text-red-600 transition-transform active:scale-95 dark:text-red-400"
           >
             Wrong
           </button>
           <button
             onClick={() => handleAnswer(true)}
-            className="flex-1 rounded-md bg-green-600 px-4 py-3 font-medium text-white"
+            className="flex-1 rounded-md bg-green-600 px-4 py-3 font-medium text-white transition-transform active:scale-95"
           >
             Correct
           </button>

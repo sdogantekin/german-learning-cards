@@ -8,13 +8,16 @@ export default function NavBar() {
         German Learning Cards
       </Link>
       <nav className="flex items-center gap-4 text-sm">
-        <Link href="/stats" className="text-neutral-600 dark:text-neutral-400">
+        <Link
+          href="/stats"
+          className="text-neutral-600 transition-colors hover:text-accent dark:text-neutral-400"
+        >
           Stats
         </Link>
         <form action={logout}>
           <button
             type="submit"
-            className="text-neutral-600 dark:text-neutral-400"
+            className="text-neutral-600 transition-colors hover:text-accent dark:text-neutral-400"
           >
             Logout
           </button>
