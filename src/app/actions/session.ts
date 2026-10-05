@@ -7,7 +7,8 @@ import { sessions, answers } from "@/lib/schema";
 import type { WordType } from "@/lib/types";
 
 export async function createSessionAndRedirect(
-  types: WordType[]
+  types: WordType[],
+  poolSize: number | null
 ): Promise<void> {
   if (types.length === 0) {
     throw new Error("At least one word type must be selected.");
@@ -15,7 +16,7 @@ export async function createSessionAndRedirect(
 
   const [sessionRow] = await db
     .insert(sessions)
-    .values({ types, status: "active" })
+    .values({ types, status: "active", poolSize })
     .returning({ id: sessions.id });
 
   redirect(`/session/${sessionRow.id}`);

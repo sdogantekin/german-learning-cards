@@ -69,6 +69,7 @@ export const sessions = pgTable("sessions", {
   endedAt: timestamp("ended_at", { withTimezone: true }),
   types: text("types").array().notNull(),
   status: text("status").notNull().default("active"), // 'active' | 'completed' | 'abandoned'
+  poolSize: integer("pool_size"), // null = full pool
 });
 
 export const answers = pgTable("answers", {

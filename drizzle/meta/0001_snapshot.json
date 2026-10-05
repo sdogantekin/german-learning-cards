@@ -1,0 +1,479 @@
+{
+  "id": "c2203d0d-ac97-467d-b76e-5366fee663d2",
+  "prevId": "831b1fe0-4b9a-45c2-bd2b-f0f475646b3c",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.adjectives": {
+      "name": "adjectives",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "adjective": {
+          "name": "adjective",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "english_meaning": {
+          "name": "english_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "turkish_meaning": {
+          "name": "turkish_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "opposite_adjective": {
+          "name": "opposite_adjective",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "comparative": {
+          "name": "comparative",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "comparative_sentence": {
+          "name": "comparative_sentence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "comparative_translation": {
+          "name": "comparative_translation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "superlative": {
+          "name": "superlative",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "superlative_sentence": {
+          "name": "superlative_sentence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "superlative_translation": {
+          "name": "superlative_translation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_de": {
+          "name": "sentence_1_de",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_en": {
+          "name": "sentence_1_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_article": {
+          "name": "sentence_1_article",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_case": {
+          "name": "sentence_1_case",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_de": {
+          "name": "sentence_2_de",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_en": {
+          "name": "sentence_2_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_article": {
+          "name": "sentence_2_article",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_case": {
+          "name": "sentence_2_case",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "adjectives_adjective_unique": {
+          "name": "adjectives_adjective_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "adjective"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.answers": {
+      "name": "answers",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "session_id": {
+          "name": "session_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "word_type": {
+          "name": "word_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "word_id": {
+          "name": "word_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "word_label": {
+          "name": "word_label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_correct": {
+          "name": "is_correct",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "answered_at": {
+          "name": "answered_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "attempt_number": {
+          "name": "attempt_number",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "answers_session_id_sessions_id_fk": {
+          "name": "answers_session_id_sessions_id_fk",
+          "tableFrom": "answers",
+          "tableTo": "sessions",
+          "columnsFrom": [
+            "session_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.nouns": {
+      "name": "nouns",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "noun": {
+          "name": "noun",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "artikel": {
+          "name": "artikel",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "plural": {
+          "name": "plural",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "english_meaning": {
+          "name": "english_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "turkish_meaning": {
+          "name": "turkish_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_de": {
+          "name": "sentence_1_de",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_en": {
+          "name": "sentence_1_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_1_case": {
+          "name": "sentence_1_case",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_de": {
+          "name": "sentence_2_de",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_en": {
+          "name": "sentence_2_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_2_case": {
+          "name": "sentence_2_case",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "nouns_noun_unique": {
+          "name": "nouns_noun_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "noun"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.sessions": {
+      "name": "sessions",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "started_at": {
+          "name": "started_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "ended_at": {
+          "name": "ended_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "types": {
+          "name": "types",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'active'"
+        },
+        "pool_size": {
+          "name": "pool_size",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.verbs": {
+      "name": "verbs",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "infinitiv": {
+          "name": "infinitiv",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "praeteritum": {
+          "name": "praeteritum",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "partizip_ii": {
+          "name": "partizip_ii",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "english_meaning": {
+          "name": "english_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "turkish_meaning": {
+          "name": "turkish_meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ich_konjugation": {
+          "name": "ich_konjugation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "du_konjugation": {
+          "name": "du_konjugation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_infinitiv": {
+          "name": "sentence_infinitiv",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_infinitiv_en": {
+          "name": "sentence_infinitiv_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_praeteritum": {
+          "name": "sentence_praeteritum",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_praeteritum_en": {
+          "name": "sentence_praeteritum_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_partizip_ii": {
+          "name": "sentence_partizip_ii",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sentence_partizip_ii_en": {
+          "name": "sentence_partizip_ii_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "verbs_infinitiv_unique": {
+          "name": "verbs_infinitiv_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "infinitiv"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

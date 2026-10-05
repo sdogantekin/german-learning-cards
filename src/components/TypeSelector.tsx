@@ -4,6 +4,12 @@ import { useState, useTransition } from "react";
 import { createSessionAndRedirect } from "@/app/actions/session";
 import type { WordType } from "@/lib/types";
 
+const LENGTH_OPTIONS: { label: string; value: number | null }[] = [
+  { label: "20", value: 20 },
+  { label: "40", value: 40 },
+  { label: "Full", value: null },
+];
+
 const TYPE_INFO: Record<WordType, { label: string; badge: string; hint: string }> = {
   verb: {
     label: "Verbs",
@@ -42,6 +48,7 @@ export default function TypeSelector() {
   const [selected, setSelected] = useState<Set<WordType>>(
     new Set(["verb", "noun", "adjective"])
   );
+  const [poolSize, setPoolSize] = useState<number | null>(null);
   const [isPending, startTransition] = useTransition();
 
   function toggle(type: WordType) {
@@ -59,7 +66,7 @@ export default function TypeSelector() {
   function handleStart() {
     const types = Array.from(selected);
     startTransition(() => {
-      createSessionAndRedirect(types);
+      createSessionAndRedirect(types, poolSize);
     });
   }
 
@@ -111,6 +118,27 @@ export default function TypeSelector() {
                 <CheckIcon />
               </span>
             </label>
+          );
+        })}
+      </div>
+
+      <p className="mb-2 text-sm font-medium text-stone-700">Session length</p>
+      <div className="mb-6 flex gap-2">
+        {LENGTH_OPTIONS.map((option) => {
+          const isActive = poolSize === option.value;
+          return (
+            <button
+              key={option.label}
+              type="button"
+              onClick={() => setPoolSize(option.value)}
+              className={`flex-1 rounded-lg border px-3 py-2 text-sm font-medium transition-colors ${
+                isActive
+                  ? "border-accent bg-accent-soft text-accent"
+                  : "border-stone-200 bg-white text-stone-600"
+              }`}
+            >
+              {option.label}
+            </button>
           );
         })}
       </div>

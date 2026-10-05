@@ -26,7 +26,10 @@ export default async function SessionPage({
     notFound();
   }
 
-  const pool = await getPool(sessionRow.types as WordType[]);
+  const fullPool = await getPool(sessionRow.types as WordType[]);
+  const pool = sessionRow.poolSize
+    ? fullPool.slice(0, sessionRow.poolSize)
+    : fullPool;
 
   return (
     <SessionRunner sessionId={sessionId} initialPool={pool} />
